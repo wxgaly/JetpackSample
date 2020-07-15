@@ -1,0 +1,4 @@
+#Wed Jul 15 22:55:09 CST 2020
+base.0=/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/dex/releaseAndroidTest/mergeDexReleaseAndroidTest/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

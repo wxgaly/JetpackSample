@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "applicationId": "wxgaly.android.benchmark.test",
+  "variantType": "ANDROID_TEST",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0",
+        "outputFile": "benchmark-release-androidTest.apk",
+        "fullName": "releaseAndroidTest",
+        "baseName": "release-androidTest",
+        "dirName": ""
+      },
+      "path": "resources-releaseAndroidTest.ap_",
+      "properties": {}
+    }
+  ]
+}

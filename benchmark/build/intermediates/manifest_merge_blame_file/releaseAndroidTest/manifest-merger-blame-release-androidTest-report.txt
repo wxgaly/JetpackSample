@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="wxgaly.android.benchmark.test" >
+4
+5    <uses-sdk
+5-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:6:5-8:41
+6        android:minSdkVersion="15"
+6-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:7:9-35
+7        android:targetSdkVersion="29" />
+7-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:8:9-38
+8
+9    <instrumentation
+9-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:10:5-15:65
+10        android:name="androidx.benchmark.junit4.AndroidBenchmarkRunner"
+10-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:11:9-72
+11        android:functionalTest="false"
+11-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:12:9-39
+12        android:handleProfiling="false"
+12-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:13:9-40
+13        android:label="Tests for wxgaly.android.benchmark.test"
+13-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:14:9-64
+14        android:targetPackage="wxgaly.android.benchmark.test" />
+14-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:15:9-62
+15
+16    <!--
+17    This is needed to write benchmark report data to an external directory during instrumented
+18    tests to allow the accompanying androidx.benchmark gradle plugin to pull the reports onto host
+19     machine after the tests are done running.
+20    -->
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->[androidx.benchmark:benchmark-common:1.0.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/2f0bab719e2591fcd215c307e8efc000/jetified-benchmark-common-1.0.0/AndroidManifest.xml:29:5-81
+21-->[androidx.benchmark:benchmark-common:1.0.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/2f0bab719e2591fcd215c307e8efc000/jetified-benchmark-common-1.0.0/AndroidManifest.xml:29:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23    <uses-permission android:name="android.permission.REORDER_TASKS" />
+23-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:24:5-72
+23-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:24:22-69
+24    <!--
+25      Important: disable debugging for accurate performance results
+26
+27      In a com.android.library project, this flag must be disabled from this
+28      manifest, as it is not possible to override this flag from Gradle.
+29    -->
+30    <application android:debuggable="false" >
+30-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:22:5-27:19
+30-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:23:9-35
+31        <uses-library android:name="android.test.runner" />
+31-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:26:9-60
+31-->/Users/wangxuguang/Desktop/code/test/github/JetpackSample/benchmark/build/intermediates/tmp/manifest/androidTest/release/manifestMerger6624869125646298375.xml:26:23-57
+32        <!-- Activity used to block background content while benchmarks are running -->
+33        <activity
+33-->[androidx.benchmark:benchmark-common:1.0.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/2f0bab719e2591fcd215c307e8efc000/jetified-benchmark-common-1.0.0/AndroidManifest.xml:34:9-37:20
+34            android:name="androidx.benchmark.IsolationActivity"
+34-->[androidx.benchmark:benchmark-common:1.0.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/2f0bab719e2591fcd215c307e8efc000/jetified-benchmark-common-1.0.0/AndroidManifest.xml:35:13-64
+35            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+35-->[androidx.benchmark:benchmark-common:1.0.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/2f0bab719e2591fcd215c307e8efc000/jetified-benchmark-common-1.0.0/AndroidManifest.xml:36:13-77
+36        </activity>
+37        <activity
+37-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:27:9-33:20
+38            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+38-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:28:13-99
+39            android:theme="@android:style/Theme" >
+39-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:29:13-49
+40            <intent-filter>
+40-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:30:13-32:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:31:17-69
+41-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:31:25-66
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:34:9-40:20
+45            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+45-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:35:13-95
+46            android:theme="@android:style/Theme" >
+46-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:36:13-49
+47            <intent-filter>
+47-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:30:13-32:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:31:17-69
+48-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:31:25-66
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:41:9-47:20
+52            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+52-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:42:13-103
+53            android:theme="@android:style/Theme.Dialog" >
+53-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:43:13-56
+54            <intent-filter>
+54-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:30:13-32:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:31:17-69
+55-->[androidx.test:core:1.2.0] /Users/wangxuguang/.gradle/caches/transforms-2/files-2.1/67e34db0eb9b22e6a1d0eb61bfa2b759/jetified-core-1.2.0/AndroidManifest.xml:31:25-66
+56            </intent-filter>
+57        </activity>
+58    </application>
+59
+60</manifest>
