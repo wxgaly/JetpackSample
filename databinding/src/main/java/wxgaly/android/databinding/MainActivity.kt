@@ -1,5 +1,6 @@
 package wxgaly.android.databinding
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
@@ -15,5 +16,8 @@ class MainActivity : AppCompatActivity() {
             this, R.layout.activity_main)
 
         binding.user = User("Test", "User")
+        binding.viewmodelActivityButton.setOnClickListener {
+            startActivity(Intent(this, ViewModelActivity::class.java))
+        }
     }
 }
