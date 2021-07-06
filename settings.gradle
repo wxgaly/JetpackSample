@@ -1,5 +1,4 @@
 include ':databinding'
 include ':benchmark'
-include ':viewpager2'
 include ':app'
 rootProject.name = "JetpackSample"

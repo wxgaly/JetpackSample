@@ -5,12 +5,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import wxgaly.android.jetpacksample.R
 
 class CardAdapter(private var list: List<String>) : RecyclerView.Adapter<CardViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardViewHolder {
         return CardViewHolder(
-            LayoutInflater.from(parent.context).inflate(R.layout.item_card, parent, false)
+            LayoutInflater.from(parent.context).inflate(R.layout.viewpager2_item_card, parent, false)
         )
     }
 
